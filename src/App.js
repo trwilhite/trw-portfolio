@@ -2,6 +2,7 @@ import React from "react";
 import Nav from "./components/Nav";
 import About from "./components/About";
 import Project from "./components/Project";
+import ContactForm from "./components/Contact";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <main>
         <About></About>
         <Project></Project>
+        <ContactForm></ContactForm>
       </main>
     </div>
   );
