@@ -1,6 +1,8 @@
 import React from "react";
 
-function Nav() {
+function Nav(props) {
+  const { pages = [], setCurrentPage, currentPage } = props;
+
   return (
     <header className="flex-row px-1">
       <h2>
@@ -9,27 +11,12 @@ function Nav() {
         </a>
       </h2>
       <nav>
-        <ul className="flex-row">
-          <li className="mx-2">
-            <a data-testid="about" href="#about">
-              about me
-            </a>
-          </li>
-          <li className="mx-2">
-            <a data-testid="about" href="#projects">
-              projects
-            </a>
-          </li>
-          <li className="mx-2">
-            <a data-testid="about" href="#contact">
-              contact Me
-            </a>
-          </li>
-          <li className="mx-2">
-            <a data-testid="about" href="#resume">
-              resume
-            </a>
-          </li>
+        <ul className="nav-ul">
+          {pages.map((page) => (
+            <li key={page.name} className="nav-li">
+              <span onClick={() => setCurrentPage(page)}>{page.name}</span>
+            </li>
+          ))}
         </ul>
       </nav>
     </header>
