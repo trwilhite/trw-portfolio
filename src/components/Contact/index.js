@@ -89,7 +89,7 @@ function ContactForm() {
               </div>
             )}
             <button
-              className="col-6 p-2 m-5"
+              className="col-6 p-2 m-5 bg-white"
               data-testid="button"
               type="submit"
             >
