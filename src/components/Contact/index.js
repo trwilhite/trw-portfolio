@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-
 import { validateEmail } from "../../utils/helpers";
 
 function ContactForm() {
@@ -23,7 +22,7 @@ function ContactForm() {
     if (e.target.name === "email") {
       const isValid = validateEmail(e.target.value);
       if (!isValid) {
-        setErrorMessage("Your email is invalid.");
+        setErrorMessage("email is invalid.");
       } else {
         setErrorMessage("");
       }
@@ -42,46 +41,63 @@ function ContactForm() {
 
   return (
     <section>
-      <h1 id="contact" data-testid="h1tag">
-        Contact me
-      </h1>
-      <form id="contact-form" onSubmit={handleSubmit}>
-        <div>
-          <label htmlFor="name">Name:</label>
-          <input
-            type="text"
-            name="name"
-            defaultValue={name}
-            onBlur={handleChange}
-          />
-        </div>
-        <div>
-          <label htmlFor="email">Email address:</label>
-          <input
-            type="email"
-            name="email"
-            defaultValue={email}
-            onBlur={handleChange}
-          />
-        </div>
-        <div>
-          <label htmlFor="message">Message:</label>
-          <textarea
-            name="message"
-            rows="5"
-            defaultValue={message}
-            onBlur={handleChange}
-          />
-        </div>
-        {errorMessage && (
-          <div>
-            <p className="error-text">{errorMessage}</p>
+      <div>
+        <h1 id="contact" data-testid="h1tag" className="text-center p-3">
+          Contact Me
+        </h1>
+        <form id="contact-form" onSubmit={handleSubmit} className="container">
+          <div className="row justify-content-center">
+            <div className="col-6 m-2 p-1 text-start">
+              <label className="col-2" htmlFor="name">
+                Name:&nbsp;&nbsp;
+              </label>
+              <input
+                type="text"
+                name="name"
+                className="col-10"
+                defaultValue={name}
+                onBlur={handleChange}
+              />
+            </div>
+            <div className="col-6 m-2 p-1 text-start">
+              <label className="col-2" htmlFor="email">
+                Email:&nbsp;&nbsp;
+              </label>
+              <input
+                type="email"
+                name="email"
+                className="col-10"
+                defaultValue={email}
+                onBlur={handleChange}
+              />
+            </div>
+            <div className="col-6 m-2 p-1 text-start">
+              <label className="col-2" htmlFor="message">
+                Message:&nbsp;&nbsp;
+              </label>
+              <textarea
+                name="message"
+                rows="5"
+                className="col-10"
+                defaultValue={message}
+                onBlur={handleChange}
+              />
+            </div>
+            {errorMessage && (
+              <div className="col-12 p-1 text-center text-danger">
+                <p className="error-text">{errorMessage}</p>
+              </div>
+            )}
+            <button
+              className="col-6 p-2 m-5"
+              data-testid="button"
+              type="submit"
+            >
+              Submit
+            </button>
           </div>
-        )}
-        <button data-testid="button" type="submit">
-          Submit
-        </button>
-      </form>
+        </form>
+      </div>
     </section>
   );
 }

@@ -1,7 +1,7 @@
 section {
   background-image: linear-gradient(
-      rgba(255, 255, 255, 0.4),
-      rgba(255, 255, 255, 0.4)
+      rgba(255, 255, 255, 0.7),
+      rgba(255, 255, 255, 0.7)
     ),
     url(../../assets/images/background-img.jpg);
   background-position: cover;
@@ -12,7 +12,6 @@ section {
 
 section h1 {
   font-size: 75px;
-  font-weight: bolder;
   text-shadow: 4px 4px 3px #cdaca1;
 }
 
