@@ -9,7 +9,7 @@ function About() {
         Hi, I'm Tamara!
       </h1>
       <div className="text-center bio">
-        <p className="pt-3">
+        <p>
           My name is Tamara Wilhite and I am an aspiring Full Stack Software
           Developer. My journey began when I graduated from the Univeristy of
           Maryland in 2018 with my Bachelor's degree in Psychology and a minor
