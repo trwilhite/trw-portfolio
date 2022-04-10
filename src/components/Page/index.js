@@ -7,7 +7,7 @@ import PageContent from "./PageContent";
 
 function Page({ currentPage }) {
   const renderPage = () => {
-    switch (currentPage.name) {
+    switch (currentPage) {
       case "About":
         return <About />;
       case "Portfolio":

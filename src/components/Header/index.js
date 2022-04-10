@@ -7,7 +7,7 @@ function Header(props) {
   const { pages = [], setCurrentPage, currentPage } = props;
 
   useEffect(() => {
-    document.title = currentPage.name;
+    document.title = currentPage;
   }, [currentPage]);
 
   return (

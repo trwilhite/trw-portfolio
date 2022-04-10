@@ -1,7 +1,12 @@
 header {
   font-family: "Quicksand", sans-serif;
+  height: 10vh;
 }
 
 header nav ul li {
   cursor: pointer;
+}
+
+.navActive {
+  color: #cdaca1;
 }

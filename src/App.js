@@ -4,12 +4,7 @@ import Page from "./components/Page";
 import Footer from "./components/Footer";
 
 function App() {
-  const [pages] = useState([
-    { name: "About" },
-    { name: "Portfolio" },
-    { name: "Contact" },
-    { name: "Resume" },
-  ]);
+  const [pages] = useState(["About", "Portfolio", "Contact", "Resume"]);
   const [currentPage, setCurrentPage] = useState(pages[0]);
 
   return (
