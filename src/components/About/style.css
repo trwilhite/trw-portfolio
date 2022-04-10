@@ -16,7 +16,7 @@ section h1 {
   text-shadow: 4px 4px 3px #cdaca1;
 }
 
-img {
+.bioImg {
   max-height: 200px;
   min-width: 200px;
   border-radius: 50%;

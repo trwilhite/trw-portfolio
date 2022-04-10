@@ -1,0 +1,41 @@
+.container-fluid {
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.7),
+      rgba(255, 255, 255, 0.7)
+    ),
+    url(../../assets/images/background-img.jpg);
+  background-position: cover;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.card {
+  font-family: "Quicksand", sans-serif;
+}
+
+.card-title {
+  font-weight: bold;
+}
+
+.card-img-top {
+  max-width: fit-content;
+  max-height: fit-content;
+  min-height: 300px;
+}
+
+.card-text {
+  text-align: justify;
+}
+
+.card-body {
+  background-color: #fff3f4;
+}
+
+.card-footer {
+  background-color: #fff3f4;
+}
+
+.card-link {
+  text-decoration: none;
+  color: black;
+}

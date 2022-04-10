@@ -32,7 +32,7 @@ function About() {
           page to see what I can bring to the table.
         </p>
       </div>
-      <img src={bioImage} className="my-2" alt="bio" />
+      <img src={bioImage} className="my-2 bioImg" alt="bio" />
     </section>
   );
 }
