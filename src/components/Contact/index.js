@@ -48,37 +48,37 @@ function ContactForm() {
         <form id="contact-form" onSubmit={handleSubmit} className="container">
           <div className="row justify-content-center">
             <div className="col-6 m-2 p-1 text-start">
-              <label className="col-2" htmlFor="name">
+              <label className="col-12" htmlFor="name">
                 Name:&nbsp;&nbsp;
               </label>
               <input
                 type="text"
                 name="name"
-                className="col-10"
+                className="col-12"
                 defaultValue={name}
                 onBlur={handleChange}
               />
             </div>
             <div className="col-6 m-2 p-1 text-start">
-              <label className="col-2" htmlFor="email">
+              <label className="col-12" htmlFor="email">
                 Email:&nbsp;&nbsp;
               </label>
               <input
                 type="email"
                 name="email"
-                className="col-10"
+                className="col-12"
                 defaultValue={email}
                 onBlur={handleChange}
               />
             </div>
             <div className="col-6 m-2 p-1 text-start">
-              <label className="col-2" htmlFor="message">
+              <label className="col-12" htmlFor="message">
                 Message:&nbsp;&nbsp;
               </label>
               <textarea
                 name="message"
                 rows="5"
-                className="col-10"
+                className="col-12"
                 defaultValue={message}
                 onBlur={handleChange}
               />
