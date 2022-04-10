@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Nav from "./components/Nav";
+import Header from "./components/Header";
 import Page from "./components/Page";
 import Footer from "./components/Footer";
 
@@ -14,7 +14,7 @@ function App() {
 
   return (
     <div>
-      <Nav
+      <Header
         pages={pages}
         currentPage={currentPage}
         setCurrentPage={setCurrentPage}
