@@ -1,13 +1,15 @@
 import React from "react";
 import bioImage from "../../assets/images/bio-photo.jpg";
+import "./style.css";
 
 function About() {
   return (
-    <section className="my-5">
-      <h1 id="about">About Me</h1>
-      <img src={bioImage} className="my-2" alt="bio" />
-      <div className="my-2">
-        <p>
+    <section className="d-flex flex-column align-items-center justify-space-between">
+      <h1 id="about" className="py-5 text-center">
+        Hi, I'm Tamara!
+      </h1>
+      <div className="text-center bio">
+        <p className="pt-3">
           My name is Tamara Wilhite and I am an aspiring Full Stack Software
           Developer. My journey began when I graduated from the Univeristy of
           Maryland in 2018 with my Bachelor's degree in Psychology and a minor
@@ -30,6 +32,7 @@ function About() {
           page to see what I can bring to the table.
         </p>
       </div>
+      <img src={bioImage} className="my-2" alt="bio" />
     </section>
   );
 }

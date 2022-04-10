@@ -5,9 +5,8 @@ import Footer from "./components/Footer";
 
 function App() {
   const [pages] = useState([
-    { name: "Home" },
     { name: "About" },
-    { name: "Projects" },
+    { name: "Portfolio" },
     { name: "Contact" },
     { name: "Resume" },
   ]);
