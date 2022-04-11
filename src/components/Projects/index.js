@@ -1,14 +1,16 @@
 import React from "react";
-import Project from "./Project";
-import soleImg from "../../assets/images/sole-intentions.jpeg";
-import cityImg from "../../assets/images/citygirl.png";
-import budgetImg from "../../assets/images/budget-tracker.png";
-import weatherImg from "../../assets/images/weather-dash.png";
-import workdayImg from "../../assets/images/work-sched.png";
-import quizImg from "../../assets/images/code-quiz.png";
+import Carousel from "react-bootstrap/Carousel";
+import "./style.css";
+import soleImg from "../../assets/images/soleintentions.png";
+import cityImg from "../../assets/images/cityGirl.png";
+import budgetImg from "../../assets/images/budget.png";
+import weatherImg from "../../assets/images/weather.png";
+import workdayImg from "../../assets/images/workday.png";
+import quizImg from "../../assets/images/codequiz.png";
 
 const PROJECTS = [
   {
+    id: 1,
     img: soleImg,
     alt: "sole intentions screenshot",
     title: "Sole Intentions",
@@ -17,6 +19,7 @@ const PROJECTS = [
     code: "https://github.com/trwilhite/sole-intentions-TMT.git",
   },
   {
+    id: 2,
     img: cityImg,
     alt: "city girl screenshot",
     title: "CityGirl",
@@ -25,6 +28,7 @@ const PROJECTS = [
     code: "https://github.com/trwilhite/code_breakers_repo.git",
   },
   {
+    id: 3,
     img: budgetImg,
     alt: "budget tracker screenshot",
     title: "Budget Tracker",
@@ -33,6 +37,7 @@ const PROJECTS = [
     code: "https://github.com/trwilhite/pwa-budget-tracker.git",
   },
   {
+    id: 4,
     img: weatherImg,
     alt: "weather dashboard screenshot",
     title: "Weather Dashboard",
@@ -41,6 +46,7 @@ const PROJECTS = [
     code: "https://github.com/trwilhite/weather_dash_tw.git",
   },
   {
+    id: 5,
     img: workdayImg,
     alt: "workday scheduler screenshot",
     title: "Workday Scheduler",
@@ -49,30 +55,34 @@ const PROJECTS = [
     code: "https://github.com/trwilhite/my-workday-scheduler.git",
   },
   {
+    id: 6,
     img: quizImg,
     alt: "code quiz screenshot",
     title: "Code Quiz",
-    desc: "The Code Quiz is a timed quiz regarding basic JavaScript concepts. It calculates your score based on the correctness of your answers and your remaining time, then allows you to save scores using local storage.",
+    desc: "The Code Quiz is a timed quiz regarding basic JavaScript concepts. It calculates your score, then allows you to save scores using local storage.",
     site: "https://trwilhite.github.io/code-quiz-week4/",
     code: "https://github.com/trwilhite/code-quiz-week4.git",
   },
 ];
 
-function Projects(props) {
+function Projects() {
   return (
-    <div className="container-fluid m-0">
-      <div className="row justify-content-around">
+    <div>
+      <Carousel variant="dark" className="carousel">
         {PROJECTS.map((proj) => (
-          <Project
-            img={proj.img}
-            alt={proj.alt}
-            title={proj.title}
-            desc={proj.desc}
-            site={proj.site}
-            code={proj.code}
-          />
+          <Carousel.Item key={proj.id} className="carouselItem">
+            <img
+              className="d-block img pt-2 pb-5"
+              src={proj.img}
+              alt={proj.alt}
+            />
+            <Carousel.Caption>
+              <h3 className="projTitle">{proj.title}</h3>
+              <p className="projDesc">{proj.desc}</p>
+            </Carousel.Caption>
+          </Carousel.Item>
         ))}
-      </div>
+      </Carousel>
     </div>
   );
 }
