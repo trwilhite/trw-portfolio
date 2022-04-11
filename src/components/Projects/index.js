@@ -78,7 +78,23 @@ function Projects() {
             />
             <Carousel.Caption>
               <h3 className="projTitle">{proj.title}</h3>
-              <p className="projDesc">{proj.desc}</p>
+              <div className="mb-1">
+                <a
+                  href={proj.site}
+                  className="text-dark text-decoration-none projText"
+                >
+                  View Site
+                </a>
+                <span> | </span>
+                <a
+                  href={proj.code}
+                  className="text-dark text-decoration-none projText"
+                >
+                  View Code
+                </a>
+              </div>
+
+              <p className="projText">{proj.desc}</p>
             </Carousel.Caption>
           </Carousel.Item>
         ))}
