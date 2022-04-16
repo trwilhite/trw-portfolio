@@ -42,7 +42,11 @@ function ContactForm() {
   return (
     <section>
       <div>
-        <h1 id="contact" data-testid="h1tag" className="text-center p-3">
+        <h1
+          id="contact"
+          data-testid="h1tag"
+          className="text-center py-3 heading"
+        >
           Contact Me
         </h1>
         <form id="contact-form" onSubmit={handleSubmit} className="container">
@@ -89,7 +93,7 @@ function ContactForm() {
               </div>
             )}
             <button
-              className="col-6 p-2 m-5 bg-white"
+              className="col-6 p-2 mt-2 mb-5 bg-white"
               data-testid="button"
               type="submit"
             >

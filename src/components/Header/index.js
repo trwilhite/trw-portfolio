@@ -11,7 +11,7 @@ function Header(props) {
   }, [currentPage]);
 
   return (
-    <header className="d-flex flex-row flex-wrap justify-content-between align-items-center m-2">
+    <header className="d-flex flex-row flex-wrap justify-content-between align-items-center my-2 bg-white sticky-top">
       <a className="text-decoration-none text-black" href="/">
         <h1 className="ps-2">Tamara Wilhite</h1>
       </a>

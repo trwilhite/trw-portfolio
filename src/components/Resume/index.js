@@ -7,7 +7,7 @@ import resume from "../../assets/TamaraWilhite-Resume.pdf";
 function Resume() {
   return (
     <div className="resPage">
-      <h1 id="resume" className="text-center">
+      <h1 id="resume" className="text-center py-3 heading">
         Resume & Skills
       </h1>
       <div className="container">

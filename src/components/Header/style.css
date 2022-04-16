@@ -1,6 +1,5 @@
 header {
   font-family: "Quicksand", sans-serif;
-  height: 10vh;
 }
 
 header nav ul li {
@@ -8,5 +7,5 @@ header nav ul li {
 }
 
 .navActive {
-  color: #cdaca1;
+  color: #8f5d4c;
 }

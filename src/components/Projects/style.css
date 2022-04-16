@@ -1,17 +1,5 @@
-.carousel {
-  background-image: linear-gradient(
-      rgba(255, 255, 255, 0.7),
-      rgba(255, 255, 255, 0.7)
-    ),
-    url(../../assets/images/background-img.jpg);
-  background-position: cover;
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-  font-family: "Quicksand", sans-serif;
-}
-
 .carouselItem {
-  height: 80vh;
+  height: 65vh;
 }
 
 .img {

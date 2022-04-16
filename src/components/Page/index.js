@@ -22,7 +22,7 @@ function Page({ currentPage }) {
   };
 
   return (
-    <div>
+    <div className="page">
       <PageContent>{renderPage()}</PageContent>
     </div>
   );
