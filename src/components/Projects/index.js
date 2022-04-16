@@ -2,7 +2,7 @@ import React from "react";
 import Carousel from "react-bootstrap/Carousel";
 import "./style.css";
 import soleImg from "../../assets/images/soleintentions.png";
-import cityImg from "../../assets/images/cityGirl.png";
+import cityImg from "../../assets/images/citygirl.png";
 import budgetImg from "../../assets/images/budget.png";
 import weatherImg from "../../assets/images/weather.png";
 import workdayImg from "../../assets/images/workday.png";
