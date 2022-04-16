@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/trw-portfolio/static/css/main.3ddd68ae.css",
+    "main.js": "/trw-portfolio/static/js/main.6e812a15.js",
+    "static/js/787.4e4b3de3.chunk.js": "/trw-portfolio/static/js/787.4e4b3de3.chunk.js",
+    "static/media/background-img.jpg": "/trw-portfolio/static/media/background-img.61290d1e2375c2b9cdb9.jpg",
+    "static/media/soleintentions.png": "/trw-portfolio/static/media/soleintentions.e30ab28f258d7e59a549.png",
+    "static/media/citygirl.png": "/trw-portfolio/static/media/citygirl.c8369992139a863e3e6a.png",
+    "static/media/weather.png": "/trw-portfolio/static/media/weather.3f256188473ae284acb5.png",
+    "static/media/workday.png": "/trw-portfolio/static/media/workday.b6ad5fc6662f7deb382b.png",
+    "static/media/budget.png": "/trw-portfolio/static/media/budget.eed52c81c1c2120857f3.png",
+    "static/media/codequiz.png": "/trw-portfolio/static/media/codequiz.1417767e623533c50dd2.png",
+    "static/media/resume.png": "/trw-portfolio/static/media/resume.1f7ca94091d786b25401.png",
+    "static/media/bio-photo.jpg": "/trw-portfolio/static/media/bio-photo.6889f67b5b2079fcdc7b.jpg",
+    "static/media/TamaraWilhite-CV.pdf": "/trw-portfolio/static/media/TamaraWilhite-CV.aefb1757b6b2662a1a87.pdf",
+    "index.html": "/trw-portfolio/index.html",
+    "main.3ddd68ae.css.map": "/trw-portfolio/static/css/main.3ddd68ae.css.map",
+    "main.6e812a15.js.map": "/trw-portfolio/static/js/main.6e812a15.js.map",
+    "787.4e4b3de3.chunk.js.map": "/trw-portfolio/static/js/787.4e4b3de3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3ddd68ae.css",
+    "static/js/main.6e812a15.js"
+  ]
+}
