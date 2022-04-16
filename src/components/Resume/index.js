@@ -1,7 +1,7 @@
 import React from "react";
 import "./style.css";
 import resImg from "../../assets/images/resume.png";
-import resume from "../../assets/TamaraWilhite-CV.pdf";
+import resume from "../../assets/TamaraWilhite-Resume.pdf";
 
 function Resume() {
   return (
