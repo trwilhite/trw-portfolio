@@ -7,12 +7,12 @@ import resume from "../../assets/TamaraWilhite-Resume.pdf";
 function Resume() {
   return (
     <div className="resPage">
-      <h1 id="resume" className="text-center py-3 heading">
+      <h1 id="resume" className="text-center pt-3 heading">
         Resume & Skills
       </h1>
       <div className="container">
         <div className="row justify-content-evenly">
-          <div className="resDiv card col-3 m-5">
+          <div className="resDiv card col-10 col-lg-3 m-3">
             <img src={resImg} className="card-img" alt="screenshot of resume" />
             <div className="card-img-overlay resLink text-center">
               <a className="text-decoration-none" href={resume} download>
@@ -22,7 +22,7 @@ function Resume() {
               </a>
             </div>
           </div>
-          <div className="col-6 m-5">
+          <div className="col-10 col-lg-6 mt-3 mb-5">
             <Skills />
           </div>
         </div>

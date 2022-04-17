@@ -1,14 +1,14 @@
 .resDiv {
-  height: 400px;
+  height: 60vh;
 }
 
 .resDiv img {
-  height: 400px;
+  height: 60vh;
   opacity: 40%;
 }
 
 .resLink a h2 {
-  font-size: 35px;
+  font-size: 5.5vh;
   text-shadow: 4px 4px 3px #cdaca1;
 }
 

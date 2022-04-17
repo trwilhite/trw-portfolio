@@ -13,18 +13,21 @@ function Footer() {
         <a
           className="text-decoration-none icon py-2 px-4"
           href="https://github.com/trwilhite"
+          target="_blank"
         >
           <FontAwesomeIcon icon={["fab", "github"]} size="2x" />{" "}
         </a>
         <a
           className="text-decoration-none icon py-2 px-4"
           href="https://www.linkedin.com/in/tamara-wilhite/"
+          target="_blank"
         >
           <FontAwesomeIcon icon={["fab", "linkedin"]} size="2x" />{" "}
         </a>
         <a
           className="text-decoration-none icon py-2 px-4"
           href="https://stackoverflow.com/users/17314835/tamara-wilhite"
+          target="_blank"
         >
           <FontAwesomeIcon icon="fa-brands fa-stack-overflow" size="2x" />{" "}
         </a>

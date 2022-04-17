@@ -80,6 +80,7 @@ function Projects() {
               <div className="mb-1">
                 <a
                   href={proj.site}
+                  target="_blank"
                   className="text-dark text-decoration-none projText"
                 >
                   View Site
@@ -87,6 +88,7 @@ function Projects() {
                 <span> | </span>
                 <a
                   href={proj.code}
+                  target="_blank"
                   className="text-dark text-decoration-none projText"
                 >
                   View Code
