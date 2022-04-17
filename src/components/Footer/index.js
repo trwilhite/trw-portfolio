@@ -8,7 +8,7 @@ library.add(fab);
 
 function Footer() {
   return (
-    <footer className="border-top bg-white pt-1 fixed-bottom">
+    <footer className="border-top bg-white fixed-bottom">
       <nav className="d-flex flex-row justify-content-center">
         <a
           className="text-decoration-none icon py-2 px-4"

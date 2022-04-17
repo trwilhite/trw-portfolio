@@ -1,5 +1,6 @@
 header {
   font-family: "Quicksand", sans-serif;
+  height: 10vh;
 }
 
 header nav ul li {
@@ -8,4 +9,10 @@ header nav ul li {
 
 .navActive {
   color: #8f5d4c;
+}
+
+@media screen and (max-width: 516px) {
+  header nav ul li {
+    padding: 0;
+  }
 }

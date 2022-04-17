@@ -2,20 +2,8 @@
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
-}
-
-header {
-  height: 10vh;
 }
 
 .heading {
@@ -36,8 +24,4 @@ header {
   font-family: "Quicksand", sans-serif;
   height: 83vh;
   overflow: scroll;
-}
-
-footer {
-  height: 7vh;
 }

@@ -4,7 +4,11 @@ const NavItem = ({ currentPage, onClick, page }) => {
   return (
     <li
       key={page}
-      className={page === currentPage ? `navActive px-4 pt-3` : `px-4 pt-3`}
+      className={
+        page === currentPage
+          ? `navActive px-2 px-md-4 pt-md-3`
+          : `px-2 px-md-4 pt-md-3`
+      }
     >
       <span
         onClick={() => {
