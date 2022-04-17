@@ -12,7 +12,7 @@ function Header(props) {
 
   return (
     <header className="d-flex flex-row flex-wrap justify-content-center justify-content-md-between align-items-center my-2 bg-white sticky-top">
-      <a className="text-decoration-none text-black" href="/">
+      <a className="text-decoration-none text-black" href="/trw-portfolio">
         <h1 className="ps-2">Tamara Wilhite</h1>
       </a>
       <Nav
