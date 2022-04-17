@@ -68,17 +68,13 @@ const PROJECTS = [
 function Projects() {
   return (
     <div>
-      <h1 id="portfolio" className="py-3 text-center heading">
+      <h1 id="portfolio" className="pt-3 text-center heading">
         Portfolio
       </h1>
       <Carousel variant="dark" className="carousel">
         {PROJECTS.map((proj) => (
           <Carousel.Item key={proj.id} className="carouselItem">
-            <img
-              className="d-block img pt-2 pb-5"
-              src={proj.img}
-              alt={proj.alt}
-            />
+            <img className="d-block img pb-3" src={proj.img} alt={proj.alt} />
             <Carousel.Caption>
               <h3 className="projTitle">{proj.title}</h3>
               <div className="mb-1">

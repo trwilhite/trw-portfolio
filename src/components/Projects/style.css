@@ -3,17 +3,22 @@
 }
 
 .img {
-  width: auto;
-  height: 70%;
+  height: 40vh;
   margin-left: auto;
   margin-right: auto;
 }
 
 .projTitle {
-  font-size: 35px;
+  font-size: 4vh;
   text-shadow: 4px 4px 3px #cdaca1;
 }
 
 .projText {
-  font-size: 20px;
+  font-size: 2.5vh;
+}
+
+@media screen and (max-width: 768px) {
+  .carouselItem {
+    height: 83vh;
+  }
 }
