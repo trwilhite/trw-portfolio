@@ -10,9 +10,3 @@ header nav ul li {
 .navActive {
   color: #8f5d4c;
 }
-
-@media screen and (max-width: 516px) {
-  header nav ul li {
-    padding: 0;
-  }
-}
