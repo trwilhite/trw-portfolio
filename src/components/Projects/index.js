@@ -1,16 +1,25 @@
 import React from "react";
 import Carousel from "react-bootstrap/Carousel";
 import "./style.css";
+import sole2Img from "../../assets/images/soleintentions2.png";
 import soleImg from "../../assets/images/soleintentions.png";
 import cityImg from "../../assets/images/citygirl.png";
 import budgetImg from "../../assets/images/budget.png";
 import weatherImg from "../../assets/images/weather.png";
 import workdayImg from "../../assets/images/workday.png";
-import quizImg from "../../assets/images/codequiz.png";
 
 const PROJECTS = [
   {
     id: 1,
+    img: sole2Img,
+    alt: "sole intentionsversion 2 screenshot",
+    title: "Sole Intentions 2.0",
+    desc: "Sole Intentions is an e-commerce site designed for sneaker reselling. We did a complete refactor from the original Sole Intentions to integrate the full MERN stack and add admin capabilities.",
+    site: "https://sole-intentions.herokuapp.com/",
+    code: "https://github.com/trwilhite/sole-REACTions.git",
+  },
+  {
+    id: 2,
     img: soleImg,
     alt: "sole intentions screenshot",
     title: "Sole Intentions",
@@ -19,7 +28,7 @@ const PROJECTS = [
     code: "https://github.com/trwilhite/sole-intentions-TMT.git",
   },
   {
-    id: 2,
+    id: 3,
     img: cityImg,
     alt: "city girl screenshot",
     title: "CityGirl",
@@ -28,7 +37,7 @@ const PROJECTS = [
     code: "https://github.com/trwilhite/code_breakers_repo.git",
   },
   {
-    id: 3,
+    id: 4,
     img: budgetImg,
     alt: "budget tracker screenshot",
     title: "Budget Tracker",
@@ -37,7 +46,7 @@ const PROJECTS = [
     code: "https://github.com/trwilhite/pwa-budget-tracker.git",
   },
   {
-    id: 4,
+    id: 5,
     img: weatherImg,
     alt: "weather dashboard screenshot",
     title: "Weather Dashboard",
@@ -46,22 +55,13 @@ const PROJECTS = [
     code: "https://github.com/trwilhite/weather_dash_tw.git",
   },
   {
-    id: 5,
+    id: 6,
     img: workdayImg,
     alt: "workday scheduler screenshot",
     title: "Workday Scheduler",
     desc: "This scheduler provides the ability to add events to your scheduler using local storage. It also highlights time blocks based on the time of day.",
     site: "https://trwilhite.github.io/my-workday-scheduler/",
     code: "https://github.com/trwilhite/my-workday-scheduler.git",
-  },
-  {
-    id: 6,
-    img: quizImg,
-    alt: "code quiz screenshot",
-    title: "Code Quiz",
-    desc: "The Code Quiz is a timed quiz regarding basic JavaScript concepts. It calculates your score, then allows you to save scores using local storage.",
-    site: "https://trwilhite.github.io/code-quiz-week4/",
-    code: "https://github.com/trwilhite/code-quiz-week4.git",
   },
 ];
 
